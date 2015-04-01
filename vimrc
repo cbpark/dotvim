@@ -35,7 +35,7 @@ set shiftwidth=4
 set shiftround
 
 " Turn on line numbers
-set number
+" set number
 
 " Always show status bar
 set laststatus=2
