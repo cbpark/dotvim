@@ -1,16 +1,23 @@
 " Make vim behave in a more useful way.
 set nocompatible
 
-" Vundle
+" Vundle {{{
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
+
 " Plugins
+Plugin 'jiangmiao/auto-pairs'
+
+Plugin 'luochen1990/rainbow'
+
 Plugin 'godlygeek/tabular'
+let g:rainbow_active = 1
 
 call vundle#end()
 filetype plugin indent on
+" }}}
 
 " Switch syntax highlighting on
 syntax on
