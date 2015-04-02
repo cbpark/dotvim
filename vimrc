@@ -10,8 +10,6 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins
 Plugin 'jiangmiao/auto-pairs'
 
-Plugin 'chriskempson/base16-vim'
-
 Plugin 'kien/ctrlp.vim'
 
 Plugin 'luochen1990/rainbow'
@@ -88,9 +86,5 @@ autocmd FileType scheme set commentstring=;;\ %s
 imap jk <Esc>
 
 " Theme
-if has("gui_running")
-   colorscheme base16-default
-   set background=dark
-   set guioptions=egmrLt
-   set linespace=1
-endif
+set background=dark
+colorscheme base16-default
