@@ -10,10 +10,15 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins
 Plugin 'jiangmiao/auto-pairs'
 
+Plugin 'chriskempson/base16-vim'
+
 Plugin 'luochen1990/rainbow'
 
 Plugin 'godlygeek/tabular'
 let g:rainbow_active = 1
+
+Plugin 'bling/vim-airline'
+let g:airline_powerline_fonts = 1
 
 call vundle#end()
 filetype plugin indent on
