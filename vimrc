@@ -12,6 +12,8 @@ Plugin 'jiangmiao/auto-pairs'
 
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'scrooloose/nerdtree'
+
 Plugin 'luochen1990/rainbow'
 
 Plugin 'godlygeek/tabular'
@@ -88,6 +90,7 @@ autocmd FileType scheme set commentstring=;;\ %s
 
 " Set keys
 imap jk <Esc>
+map <C-n> :NERDTreeToggle<CR>
 
 " Theme
 set background=dark
