@@ -1,9 +1,19 @@
-" Settings {{{
-" Switch syntax highlighting on
-syntax on
-
 " Make vim behave in a more useful way.
 set nocompatible
+
+" Vundle
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+" Plugins
+Plugin 'godlygeek/tabular'
+
+call vundle#end()
+filetype plugin indent on
+
+" Switch syntax highlighting on
+syntax on
 
 " Disable backups.
 set nobackup
@@ -58,4 +68,3 @@ set showmatch
 " Theme
 set background=dark
 colorscheme base16-default
-" }}}
