@@ -70,7 +70,11 @@ set statusline=%f\ %=L:%l/%L\ %c\ (%p%%)
 " Set encoding
 set encoding=utf-8
 
-" Automatically read the file when detected to be changed outside
+" Spell checking
+setlocal spell spelllang=en_us
+set complete+=kspell
+
+"  Automatically read the file when detected to be changed outside
 set autoread
 
 " Turn off the introductory message
