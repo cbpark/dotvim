@@ -20,6 +20,8 @@ let g:rainbow_active = 1
 Plugin 'bling/vim-airline'
 let g:airline_powerline_fonts = 1
 
+Plugin 'tpope/vim-commentary'
+
 call vundle#end()
 filetype plugin indent on
 " }}}
@@ -76,6 +78,9 @@ set shortmess+=I
 
 " When a bracket is inserted, briefly jump to the matching one.
 set showmatch
+
+" Set comment strings
+autocmd FileType scheme set commentstring=;;\ %s
 
 " Theme
 set background=dark
