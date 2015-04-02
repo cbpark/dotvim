@@ -88,5 +88,9 @@ autocmd FileType scheme set commentstring=;;\ %s
 imap jk <Esc>
 
 " Theme
-set background=dark
-colorscheme base16-default
+if has("gui_running")
+   colorscheme base16-default
+   set background=dark
+   set guioptions=egmrLt
+   set linespace=1
+endif
