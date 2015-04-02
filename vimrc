@@ -12,13 +12,15 @@ Plugin 'jiangmiao/auto-pairs'
 
 Plugin 'chriskempson/base16-vim'
 
+Plugin 'kien/ctrlp.vim'
+
 Plugin 'luochen1990/rainbow'
 
 Plugin 'godlygeek/tabular'
 let g:rainbow_active = 1
 
-" Plugin 'bling/vim-airline'
-" let g:airline_powerline_fonts = 1
+Plugin 'bling/vim-airline'
+let g:airline_powerline_fonts = 0
 
 Plugin 'tpope/vim-commentary'
 
@@ -81,6 +83,9 @@ set showmatch
 
 " Set comment strings
 autocmd FileType scheme set commentstring=;;\ %s
+
+" Set keys
+imap jk <Esc>
 
 " Theme
 set background=dark
