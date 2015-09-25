@@ -14,10 +14,7 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'scrooloose/nerdtree'
 
-Plugin 'luochen1990/rainbow'
-
 Plugin 'godlygeek/tabular'
-let g:rainbow_active = 1
 
 Plugin 'bling/vim-airline'
 let g:airline_powerline_fonts = 0
