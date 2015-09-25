@@ -24,6 +24,8 @@ let g:airline_powerline_fonts = 0
 
 Plugin 'tpope/vim-commentary'
 
+Plugin 'dag/vim2hs'
+
 call vundle#end()
 filetype plugin indent on
 " }}}
@@ -94,4 +96,4 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Theme
 set background=dark
-colorscheme base16-default
+colorscheme zenburn
