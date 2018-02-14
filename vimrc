@@ -16,8 +16,8 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'godlygeek/tabular'
 
-Plugin 'bling/vim-airline'
-let g:airline_powerline_fonts = 0
+" Plugin 'bling/vim-airline'
+" let g:airline_powerline_fonts = 0
 
 Plugin 'tpope/vim-commentary'
 
@@ -92,5 +92,5 @@ imap jk <Esc>
 map <C-n> :NERDTreeToggle<CR>
 
 " Theme
-set background=dark
-colorscheme base16-tomorrow-night
+" set background=dark
+" colorscheme base16-tomorrow-night
