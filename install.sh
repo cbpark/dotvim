@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-DOTVIM=$HIME/.vim
+DOTVIM=$HOME/.vim
 
 backup() {
     if [ -e $HOME/$1 ]; then
