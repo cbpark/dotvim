@@ -93,4 +93,4 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Theme
 set background=dark
-colorscheme zenburn
+colorscheme base16-tomorrow-night
