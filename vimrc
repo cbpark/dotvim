@@ -9,19 +9,13 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins
 Plugin 'jiangmiao/auto-pairs'
-
 Plugin 'kien/ctrlp.vim'
-
 Plugin 'scrooloose/nerdtree'
-
 Plugin 'godlygeek/tabular'
-
-" Plugin 'bling/vim-airline'
-" let g:airline_powerline_fonts = 0
-
+Plugin 'bling/vim-airline'
+let g:airline_powerline_fonts = 0
 Plugin 'tpope/vim-commentary'
-
-Plugin 'dag/vim2hs'
+" Plugin 'dag/vim2hs'
 
 call vundle#end()
 filetype plugin indent on
@@ -93,4 +87,4 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Theme
 " set background=dark
-" colorscheme base16-tomorrow-night
+" colorscheme base16-default-dark
