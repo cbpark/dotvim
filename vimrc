@@ -1,26 +1,6 @@
 " Make vim behave in a more useful way.
 set nocompatible
 
-" Vundle {{{
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
-
-" Plugins
-Plugin 'jiangmiao/auto-pairs'
-" Plugin 'kien/ctrlp.vim'
-" Plugin 'scrooloose/nerdtree'
-" Plugin 'godlygeek/tabular'
-" Plugin 'bling/vim-airline'
-" let g:airline_powerline_fonts = 0
-" Plugin 'tpope/vim-commentary'
-" Plugin 'dag/vim2hs'
-
-call vundle#end()
-filetype plugin indent on
-" }}}
-
 " Switch syntax highlighting on
 syntax on
 
@@ -69,7 +49,7 @@ set encoding=utf-8
 setlocal spell spelllang=en_us
 set complete+=kspell
 
-"  Automatically read the file when detected to be changed outside
+" Automatically read the file when detected to be changed outside
 set autoread
 
 " Turn off the introductory message
@@ -83,7 +63,6 @@ autocmd FileType scheme set commentstring=;;\ %s
 
 " Set keys
 imap jk <Esc>
-map <C-n> :NERDTreeToggle<CR>
 
 " Theme
 " set background=dark

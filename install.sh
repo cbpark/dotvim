@@ -18,9 +18,6 @@ git clone git@github.com:cbpark/dotVim.git ${DOTVIM} \
 
 ln -sf ${DOTVIM}/vimrc $HOME/.vimrc
 
-curdir=$(pwd)
-cd ${DOTVIM} || { echo "--" ${DOTVIM} "does not exist."; exit 1; }
-git submodule update --init
-vim +PluginInstall +qall
-vim +PluginClean! +qall
-cd $curdir || exit
+# curdir=$(pwd)
+# cd ${DOTVIM} || { echo "--" ${DOTVIM} "does not exist."; exit 1; }
+# cd $curdir || exit
