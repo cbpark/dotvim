@@ -9,12 +9,12 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'godlygeek/tabular'
-Plugin 'bling/vim-airline'
-let g:airline_powerline_fonts = 0
-Plugin 'tpope/vim-commentary'
+" Plugin 'kien/ctrlp.vim'
+" Plugin 'scrooloose/nerdtree'
+" Plugin 'godlygeek/tabular'
+" Plugin 'bling/vim-airline'
+" let g:airline_powerline_fonts = 0
+" Plugin 'tpope/vim-commentary'
 " Plugin 'dag/vim2hs'
 
 call vundle#end()
